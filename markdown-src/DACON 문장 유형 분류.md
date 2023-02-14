@@ -1,12 +1,12 @@
 # DACON |  문장 유형 분류 AI 경진대회
-![Untitled](DACON%20%E1%84%86%E1%85%AE%E1%86%AB%E1%84%8C%E1%85%A1%E1%86%BC%20%E1%84%8B%E1%85%B2%E1%84%92%E1%85%A7%E1%86%BC%20%E1%84%87%E1%85%AE%E1%86%AB%E1%84%85%E1%85%B2%20AI%20%E1%84%80%E1%85%A7%E1%86%BC%E1%84%8C%E1%85%B5%E1%86%AB%E1%84%83%E1%85%A2%E1%84%92%E1%85%AC%20f173094c5f714dd0bf57a5715f7834c8/Untitled.png)
+![Untitled](https://user-images.githubusercontent.com/103119868/218712997-2ffe2c85-e0a3-495f-bbf0-279f0d040783.png)
 
 <br>
 
 - 주최: 성균관대학교
 - 주관: DACON
 - 수행 기간: December 12, 2022 → December 23, 2022
-- 대회 홈페이지: https://dacon.io/competitions/official/236037/overview/description
+- <a href="https://dacon.io/competitions/official/236037/overview/description">대회 홈페이지</a>
 
 <br>
 
@@ -19,7 +19,7 @@
 <br>
 
 ### 데이터
-![Untitled](DACON%20%E1%84%86%E1%85%AE%E1%86%AB%E1%84%8C%E1%85%A1%E1%86%BC%20%E1%84%8B%E1%85%B2%E1%84%92%E1%85%A7%E1%86%BC%20%E1%84%87%E1%85%AE%E1%86%AB%E1%84%85%E1%85%B2%20AI%20%E1%84%80%E1%85%A7%E1%86%BC%E1%84%8C%E1%85%B5%E1%86%AB%E1%84%83%E1%85%A2%E1%84%92%E1%85%AC%20f173094c5f714dd0bf57a5715f7834c8/Untitled%201.png)
+<img width="1208" alt="Untitled 1" src="https://user-images.githubusercontent.com/103119868/218712977-fda1a19b-3121-40bb-81e1-2c3d5f12dcaa.png">
 
 - ID : 샘플 문장 별 고유 ID
 - 문장 : 샘플 별 한개의 문장
@@ -33,10 +33,11 @@
 <br>
 
 ## 2. 주요 수행 내용
-![Untitled](DACON%20%E1%84%86%E1%85%AE%E1%86%AB%E1%84%8C%E1%85%A1%E1%86%BC%20%E1%84%8B%E1%85%B2%E1%84%92%E1%85%A7%E1%86%BC%20%E1%84%87%E1%85%AE%E1%86%AB%E1%84%85%E1%85%B2%20AI%20%E1%84%80%E1%85%A7%E1%86%BC%E1%84%8C%E1%85%B5%E1%86%AB%E1%84%83%E1%85%A2%E1%84%92%E1%85%AC%20f173094c5f714dd0bf57a5715f7834c8/Untitled%202.png)
+![Untitled 2](https://user-images.githubusercontent.com/103119868/218712993-2f988986-0f76-4e58-99f5-3f17d7bb9e5b.png)
+
 
 - Multi-label classification을 다루면서 대회 평가기준인 Weighted f1 score에 적절한 모델이 무엇인지 관련 reference paper 찾기
-    - [BigBird](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9826728) 모델이 적합한 것으로 보였음
+    - <a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9826728">BigBird</a> 모델이 적합한 것으로 보였음
 - Hugging Face의 여러 PLM 적용 (`monologg/kobigbird-bert-base`, `klue/roberta-large`, `tunib/electra-ko-base`)
     - KFold, Batch size, Max length, Learning rate 등 여러 Parameter 조정해보면서 적용
 - Team Notion 관리, 실험 관리 양식 작성 및 정리
@@ -51,5 +52,5 @@
 <br>
 
 ## 4. 최종 결과
-> - PUBLIC  : 15th / 333 teams
-> - **PRIVATE : 22th / 333 teams (Top 7%)**
+- PUBLIC  : 15th / 333 teams
+- **PRIVATE : 22th / 333 teams (Top 7%)**

@@ -1,11 +1,11 @@
 # Kaggle |  Feedback Prize - English Language Learning
 
-![Untitled](Kaggle%20Feedback%20Prize%20-%20English%20Language%20Learning%20ac690cb6cdb04aa49dd800fdbd0579e2/Untitled.png)
+<img width="1024" alt="Untitled" src="https://user-images.githubusercontent.com/103119868/218717980-5e82b0cf-944b-44d3-a5c9-4376e765f66f.png">
 
 - 주최: Vanderbilt University, The Learning Agency Lab
 - 주관: Kaggle
 - 수행 기간: August 30, 2022 → November 29, 2022
-- 대회 홈페이지: https://www.kaggle.com/competitions/feedback-prize-english-language-learning/overview
+- <a href="https://www.kaggle.com/competitions/feedback-prize-english-language-learning/overview">대회 홈페이지</a>
 
 <br>
  
@@ -43,4 +43,4 @@
 <br>
 
 ## 4. 최종 결과
-> Silver medal 획득 (Top 5%, 130th /2654)
+- Silver medal 획득 (Top 5%, 130th /2654)

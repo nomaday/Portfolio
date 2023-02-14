@@ -1,9 +1,8 @@
 # DACON |  월간 데이콘 발화자의 감정인식 AI 경진대회
 
-- 주최: DACON
-- 주관: DACON
+- 주최/주관: DACON
 - 수행 기간: November 1, 2022 → December 12, 2022
-- 대회 홈페이지: https://dacon.io/competitions/official/236027/overview/description
+- <a href="https://dacon.io/competitions/official/236027/overview/description">대회 홈페이지</a>
 
 <br>
 
@@ -34,4 +33,4 @@
 <br>
 
 ## 4. 최종 결과
-> 5위 / 259팀
+- 5위 / 259팀

@@ -3,8 +3,7 @@
 ![Untitled](https://user-images.githubusercontent.com/103119868/218686631-5e43bbad-f08d-4132-b75f-cbf3e9649884.jpg)
 
 
-- 주최: DACON
-- 주관: DACON
+- 주최/주관: DACON  
 - 수행 기간: July 11, 2022 → August 5, 2022
 
 <br>
@@ -32,4 +31,4 @@
 <br>
 
 ## 4. 최종 결과
-> 5위 / 252팀
+- 5위 / 252팀
