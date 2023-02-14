@@ -24,25 +24,17 @@
 - 아바타 제작할 때 필요한 고품질의 이미지란 무엇인가?   
     → 생성되는 아바타 품질을 높이는 데 영향을 줄 수 있는 input 이미지  
     → 얼굴을 인식할 수 있는 수준의 고품질 이미지
-<br>
 
 ### 데이터
-
 - YouTube에서 사람 얼굴 비중이 크고 여러 얼굴 각도를 보여주는 초고화질 영상을 찾아 얼굴 이미지 추출
 - Input image size: 384x384
-
-<br>
 
 ### IQA (Image Quality Assessment) 관련 논문 조사, 용어 정리
 - No-Reference Metric 기술 발전 흐름 파악
 
-<br>
-
 ### FIQA (Face Image Quality Assessment) 관련 논문 조사, 구현 시도
 - 얼굴 이미지를 입력으로 받아 어떤 형태의 "품질” 추정치를 출력으로 생성하는 프로세스
 - [SER-FIQ : Unsupervised estimation of face image quality](https://arxiv.org/abs/2003.09373)를 base model로 설정하고 구현 시도
-
-<br>
 
 ### 기존 IQA와 FIQA 단독 사용 시 한계점을 확인하고 SER-FIQ(FIQA)와 DBCNN(IQA)을 결합하는 방식 제안
 - SER-FIQ (FIQA) 모델로 인식 가능한 수준의 얼굴 이미지를 필터링
@@ -57,17 +49,12 @@
 - 스타트업 기업 연계 프로젝트이므로 기업의 관점에서 필요한 것이 무엇인지 더욱 생각해 볼 수 있었고, 실제 현업에서 이루어지는 데이터 수집, 정제 과정에서 겪을 수 있는 어려움이 어떤 부분이 있는지 알 수 있었습니다.
 
 ---
-<br>
 
 ### 🪩 프로젝트 GitHub Repository (Organization)
 👉 [yeardreamoff5/aipark](https://github.com/yeardreamoff5/aipark)
 
-<br>
-
 ### 🗃️ 프로젝트 팀 노션 
 👉 [(공유)스타트업 기업연계 프로젝트 - AIPARK](https://www.notion.so/AIPARK-c62dd9ad14534fb791992701a56143b2)
-
-<br>
 
 ### 🪧 최종 발표 자료
 👉 [[제출용] 25조_에이아이파크_최종발표.pdf]()
