@@ -33,4 +33,5 @@
 <br>
 
 ## 4. 최종 결과
-- 5위 / 259팀
+- 5위 / 259팀  
+    <img width="500" alt="coe2" src="https://user-images.githubusercontent.com/103119868/218729064-d90a2cf5-0d47-4be0-8d13-49a1543b6397.png">
