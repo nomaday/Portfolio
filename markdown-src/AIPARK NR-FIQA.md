@@ -34,7 +34,7 @@
 
 ### FIQA (Face Image Quality Assessment) 관련 논문 조사, 구현 시도
 - 얼굴 이미지를 입력으로 받아 어떤 형태의 "품질” 추정치를 출력으로 생성하는 프로세스
-- <a href="https://arxiv.org/abs/2003.09373">SER-FIQ : Unsupervised estimation of face image quality</a>를 base model로 설정하고 구현 시도
+- <a href="https://arxiv.org/abs/2003.09373" target="_blank" rel="noreferrer noopener">SER-FIQ : Unsupervised estimation of face image quality</a>를 base model로 설정하고 구현 시도
 
 ### 기존 IQA와 FIQA 단독 사용 시 한계점을 확인하고 SER-FIQ(FIQA)와 DBCNN(IQA)을 결합하는 방식 제안
 - SER-FIQ (FIQA) 모델로 인식 가능한 수준의 얼굴 이미지를 필터링
@@ -51,10 +51,10 @@
 ---
 
 ### 🪩 프로젝트 GitHub Repository (Organization)
-- <a href="https://github.com/yeardreamoff5/aipark">yeardreamoff5/aipark</a>
+- <a href="https://github.com/yeardreamoff5/aipark" target="_blank" rel="noreferrer noopener">yeardreamoff5/aipark</a>
 
 ### 🗃️ 프로젝트 팀 노션 
-- <a href="https://www.notion.so/AIPARK-c62dd9ad14534fb791992701a56143b2">(공유)스타트업 기업연계 프로젝트 - AIPARK</a>
+- <a href="https://www.notion.so/AIPARK-c62dd9ad14534fb791992701a56143b2" target="_blank" rel="noreferrer noopener">(공유)스타트업 기업연계 프로젝트 - AIPARK</a>
 
 ### 🪧 최종 발표 자료
-- <a href="https://github.com/nomaday/Portfolio/blob/main/markdown-src/final-presentation-aipark.pdf">[제출용] 25조_에이아이파크_최종발표.pdf</a>
+- <a href="https://github.com/nomaday/Portfolio/blob/main/markdown-src/final-presentation-aipark.pdf" target="_blank" rel="noreferrer noopener">[제출용] 25조_에이아이파크_최종발표.pdf</a>

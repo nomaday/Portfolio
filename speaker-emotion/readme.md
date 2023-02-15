@@ -2,7 +2,7 @@
 
 - 주최/주관: DACON
 - 수행 기간: November 1, 2022 → December 12, 2022
-- <a href="https://dacon.io/competitions/official/236027/overview/description">대회 홈페이지</a>
+- <a href="https://dacon.io/competitions/official/236027/overview/description" target="_blank" rel="noreferrer noopener">대회 홈페이지</a>
 
 <br>
 

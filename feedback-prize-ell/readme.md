@@ -5,7 +5,7 @@
 - 주최: Vanderbilt University, The Learning Agency Lab
 - 주관: Kaggle
 - 수행 기간: August 30, 2022 → November 29, 2022
-- <a href="https://www.kaggle.com/competitions/feedback-prize-english-language-learning/overview">대회 홈페이지</a>
+- <a href="https://www.kaggle.com/competitions/feedback-prize-english-language-learning/overview" target="_blank" rel="noreferrer noopener" target="_blank" rel="noreferrer noopener">대회 홈페이지</a>
 
 <br>
  
@@ -35,10 +35,8 @@
 
 ## 3. 프로젝트를 통해 배운점
 
-- 그동안은 데이터 또는 모델 위주의 접근법으로만 생각했다면 이번 프로젝트에서 후처리 방식으로
-접근하는 방식을 시도해봤습니다.
-- 무조건 어렵게 시도하는 것이 아니라, 할 수 있는 선에서 끝까지 포기하지 않는 것이 중요하다는
-것을 느꼈습니다.
+- 그동안은 데이터 또는 모델 위주의 접근법으로만 생각했다면 이번 프로젝트에서 후처리 방식으로 접근하는 방식을 시도해봤습니다.
+- 무조건 어렵게 시도하는 것이 아니라, 할 수 있는 선에서 끝까지 포기하지 않는 것이 중요하다는 것을 느꼈습니다.
 
 <br>
 

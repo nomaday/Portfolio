@@ -6,7 +6,7 @@
 - 주최: 성균관대학교
 - 주관: DACON
 - 수행 기간: December 12, 2022 → December 23, 2022
-- <a href="https://dacon.io/competitions/official/236037/overview/description">대회 홈페이지</a>
+- <a href="https://dacon.io/competitions/official/236037/overview/description" target="_blank" rel="noreferrer noopener">대회 홈페이지</a>
 
 <br>
 
@@ -37,7 +37,7 @@
 
 
 - Multi-label classification을 다루면서 대회 평가기준인 Weighted f1 score에 적절한 모델이 무엇인지 관련 reference paper 찾기
-    - <a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9826728">BigBird</a> 모델이 적합한 것으로 보였음
+    - <a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9826728" target="_blank" rel="noreferrer noopener">BigBird</a> 모델이 적합한 것으로 보였음
 - Hugging Face의 여러 PLM 적용 (`monologg/kobigbird-bert-base`, `klue/roberta-large`, `tunib/electra-ko-base`)
     - KFold, Batch size, Max length, Learning rate 등 여러 Parameter 조정해보면서 적용
 - Team Notion 관리, 실험 관리 양식 작성 및 정리
@@ -46,7 +46,7 @@
 
 ## 3. 프로젝트를 통해 배운점
 - 앙상블의 효과가 상당히 크다는 것을 느꼈습니다.
-- 많은 옵션이 들어간다고 성능이 반드시 좋아지는 것은 아닌 점을 배웠습니다..
+- 많은 옵션이 들어간다고 성능이 반드시 좋아지는 것은 아닌 점을 배웠습니다.
 - 2주라는 기간동안 좀 더 다양한 시도를 해보았으면 좋았을 것 같습니다.
 
 <br>
