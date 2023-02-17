@@ -187,7 +187,7 @@ def test_func(model, dataloader, device = config['device']):
 
 
 # Run Training Function
-base_path = '/Users/ryang/Documents/github/Portfolio/shoppingmall-review/result/'
+base_path = '/Portfolio/shoppingmall-review/result/'
 
 
 def run_training(model, optimizer, scheduler, device, n_epochs, fold):

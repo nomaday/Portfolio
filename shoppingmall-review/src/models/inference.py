@@ -22,8 +22,7 @@ from src.utils.metrics import calc_accuracy
 from src.models.trainer import test_func
 
 
-
-base_path = '/Users/ryang/Documents/github/Portfolio/shoppingmall-review/result/'
+base_path = '/Portfolio/shoppingmall-review/result/'
 
 model_paths = [
     base_path + "model/Loss-Fold-0.bin",
