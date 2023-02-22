@@ -1,5 +1,5 @@
 # AI CONNECT |  이어드림 경진대회
-![Picture1](https://user-images.githubusercontent.com/103119868/220592750-bb948f09-9cfa-4a42-9e8a-f92147b47846.png)
+![Picture1](https://user-images.githubusercontent.com/103119868/220609056-92f55e77-1d5b-4a2d-9541-ab2b5ad3d512.png)
 
 
 - 주최: 중소벤처기업진흥공단
@@ -22,7 +22,7 @@
 - 기계독해 관련 정보 조사
 - Pre-trained Model 활용
     - `monologg/koelectra-base-v3-discriminator` 모델 적용
-    - `KLUE-RoBERTa-large` 모델 적용 (대회 종료 후 Private score 가장 높게 나온것으로 확인)
+    - `KLUE-RoBERTa-large` 모델 적용 (대회 종료 후 확인한 Final Score 0.624331282258772로 가장 높음)
 - HuggingFace library 활용
     - `ElectraForQuestionAnswering` `ElectraTokenizerFast`
     - `AutoModelForQuestionAnswering`, `AutoTokenizer`
