@@ -62,5 +62,16 @@
 
 - 목표: 쇼핑몰 상품 리뷰 데이터셋을 이용하여 상품의 평점 (1점, 2점, 4점, 5점) 분류
 - 주최/주관: DACON
-- 기간: July 11, 2022 - August, 2022
+- 기간: July 11, 2022 - August 5, 2022
 - 결과: 5th Certificate of Excellence
+
+<br>
+
+### 🏅  AI CONNECT 이어드림 경진대회  |  2nd/139
+> *Nov 2022*,  MRC(Machine Reading Comprehension)
+
+- 목표: 도서자료 검색 효율화를 위한 기계독해
+- 주최: 중소벤처기업진흥공단
+- 주관: 마인즈앤컴퍼니
+- 기간: November 14 - 28, 2022
+- 결과: Public 1위 | Final 2위 / 139명
