@@ -27,7 +27,3 @@
 ### sample_submission.csv [제출양식]
 - ID : 행 별 고유 id
 - Target : 예측한 감정 (neutral, joy, surprise, anger, sadness, disgust, fear 존재)
-
-<br>
-
-<a href="https://drive.google.com/file/d/1-QNs8sk5X3u_1rK-dv5ESgQIt0ZDQSwY/view" target="_blank">💾 **Data Download link**</a>
