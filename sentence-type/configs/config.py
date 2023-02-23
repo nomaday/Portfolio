@@ -1,4 +1,5 @@
 import torch
+from transformers import AutoTokenizer
 
 config ={
     'testnum' : 't0-1',
@@ -19,3 +20,5 @@ config ={
     'target_cols': ['type', 'pn', 'time', 'sure'],
     "device": torch.device("cuda:0" if torch.cuda.is_available() else "cpu"),
 }
+
+config['tokenizer'] = AutoTokenizer.from_pretrained(config['model'])
