@@ -4,8 +4,7 @@ import torch
 from torch.utils.data import Dataset
 from transformers import AutoTokenizer
 
-sys.path.append('/Portfolio/speaker-emotion/configs')
-from config import CFG
+from configs.config import CFG
 
 
 tokenizers = AutoTokenizer.from_pretrained(CFG["PLM"])

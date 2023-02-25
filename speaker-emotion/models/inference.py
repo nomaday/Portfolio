@@ -6,14 +6,12 @@ from torch import nn
 from tqdm import tqdm
 
 from model import *
-sys.path.append('/Portfolio/speaker-emotion/utils')
-from dataset import CustomDataset, tokenizers
-sys.path.append('/Portfolio/speaker-emotion')
+from utils.dataset import CustomDataset, tokenizers
 from train import *
 
 device = torch.device('cuda') if torch.cuda.is_available() else torch.device('cpu')
 
-base_path = f'/Portfolio/speaker-emotion/results/{train_serial}/'
+base_path = f'./Portfolio/speaker-emotion/results/{train_serial}/'
 print(base_path)
 
 model_paths = [
@@ -68,4 +66,4 @@ N_preds = le.inverse_transform(n_preds)
 submit = pd.read_csv(path + 'sample_submission.csv')
 submit['Target'] = N_preds
 
-submit.to_csv(f"/Portfolio/speaker-emotion/results/submit.csv", index=False)
+submit.to_csv(f"./Portfolio/speaker-emotion/results/submit.csv", index=False)

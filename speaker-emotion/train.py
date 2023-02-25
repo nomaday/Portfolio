@@ -15,15 +15,12 @@ from transformers import AutoTokenizer, AutoModel
 from datetime import datetime, timezone, timedelta
 import multiprocessing
 
-sys.path.append('/Portfolio/speaker-emotion/configs')
-from config import CFG
-sys.path.append('/Portfolio/speaker-emotion/models')
-from model import *
-from trainer import *
-sys.path.append('/Portfolio/speaker-emotion/utils')
-from dataset import CustomDataset, tokenizers
-from preprocess import *
-from metrics import competition_metric
+from configs.config import CFG
+from models.model import *
+from models.trainer import *
+from utils.dataset import CustomDataset, tokenizers
+from utils.preprocess import *
+from utils.metrics import competition_metric
 
 
 # 시간 고유값 

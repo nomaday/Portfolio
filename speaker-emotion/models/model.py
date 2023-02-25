@@ -6,10 +6,8 @@ import torch.nn as nn
 from torch.optim import Adam
 from transformers import AutoTokenizer, AutoModel
 
-sys.path.append('/Portfolio/speaker-emotion/configs')
-from config import CFG
-sys.path.append('/Portfolio/speaker-emotion/utils')
-from dataset import CustomDataset, tokenizers
+from configs.config import CFG
+from utils.dataset import CustomDataset, tokenizers
 
 
 device = torch.device('cuda') if torch.cuda.is_available() else torch.device('cpu')

@@ -4,13 +4,9 @@ import os
 import sys
 
 from model import *
-sys.path.append('/Portfolio/speaker-emotion/configs')
-from config import CFG
-sys.path.append('/Portfolio/speaker-emotion/utils')
-from dataset import CustomDataset, tokenizers
-sys.path.append('/Portfolio/speaker-emotion/utils')
-from metrics import competition_metric
-sys.path.append('/Portfolio/speaker-emotion')
+from configs.config import CFG
+from utils.dataset import CustomDataset, tokenizers
+from utils.metrics import competition_metric
 from train import *
 
 def trainer(model, optimizer, train_loader, test_loader, device, fold=CFG["NFOLD"]):

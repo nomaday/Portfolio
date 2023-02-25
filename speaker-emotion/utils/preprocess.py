@@ -7,10 +7,8 @@ from sklearn.preprocessing import LabelEncoder
 from sklearn.model_selection import StratifiedKFold
 import torch
 
-sys.path.append('/Portfolio/speaker-emotion/configs')
-from config import CFG
-sys.path.append('/Portfolio/speaker-emotion/utils')
-from dataset import CustomDataset, tokenizers
+from configs.config import CFG
+from utils.dataset import CustomDataset, tokenizers
 
 
 def seed_everything(seed):
@@ -26,7 +24,7 @@ def seed_everything(seed):
 seed_everything(CFG['SEED'])
 
 
-path = "/Portfolio/speaker-emotion/data/"
+path = "./Portfolio/speaker-emotion/data/"
 data = pd.read_csv(path + 'train.csv')
 
 # Speaker 제외
