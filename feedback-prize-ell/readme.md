@@ -1,4 +1,4 @@
-# Kaggle |  Feedback Prize - English Language Learning
+# Kaggle | Feedback Prize - English Language Learning
 
 <img width="1024" alt="Untitled" src="https://user-images.githubusercontent.com/103119868/218717980-5e82b0cf-944b-44d3-a5c9-4376e765f66f.png">
 
@@ -12,8 +12,7 @@
 ## 1. 프로젝트 개요
 
 ### 목표
-- 8~12학년 영어 학습자(ELL)의 언어 능력을 평가하는 자동화된 피드백 시스템을 개선하기 위해 주어진 에세이에 대한 6가지 평가 지표 (cohesion, syntax, vocabulary, phraseology, grammar, conventions) 각각의 점수를 예측하는 것
-<br>
+- 8~12학년 영어 학습자(ELL)의 언어 능력을 평가하는 자동화된 피드백 시스템을 개선하기 위해 주어진 에세이에 대한 6가지 평가 지표 (`cohesion`, `syntax`, `vocabulary`, `phraseology`, `grammar`, `conventions`) 각각의 점수를 예측하는 것
 
 ### 데이터
 - 제시된 데이터 세트(ELLIPSE corpus)는 8~12학년 영어 학습자(ELL)가 작성한 논증 에세이로 구성
@@ -41,4 +40,4 @@
 <br>
 
 ## 4. 최종 결과
-- Silver medal 획득 (Top 5%, 130th /2654)
+- Silver medal 획득 (Top 5%, 130th /2654 teams)

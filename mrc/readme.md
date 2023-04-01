@@ -3,7 +3,7 @@
 
 
 - 주최: 중소벤처기업진흥공단
-- 주관: 마인즈앤컴퍼니  
+- 주관: AI CONNECT (마인즈앤컴퍼니)
 - 수행 기간: November 14, 2022 → November 28, 2022
 - <a href="https://aiconnect.kr/competition/detail/217" target="_blank">대회 홈페이지</a>
 
@@ -13,7 +13,7 @@
 - 도서자료 검색 효율화를 위한 기계독해 
 - 자연어 처리(NLP) | 개방형 문제 | Accuracy 
 
-### 문제정의
+#### 문제정의
 - 주어진 지문 속 질문에 대한 답을 찾는 Machine Reading Comprehension
 
 <br>
@@ -22,7 +22,7 @@
 - 기계독해 관련 정보 조사
 - Pre-trained Model 활용
     - `monologg/koelectra-base-v3-discriminator` 모델 적용
-    - `KLUE-RoBERTa-large` 모델 적용 (대회 종료 후 확인한 Final Score 0.624331282258772로 가장 높음)
+    - `KLUE-RoBERTa-large` 모델 적용 *(대회 종료 후 확인한 score: 0.6243313으로 가장 높았음)*
 - HuggingFace library 활용
     - `ElectraForQuestionAnswering` `ElectraTokenizerFast`
     - `AutoModelForQuestionAnswering`, `AutoTokenizer`
@@ -33,5 +33,5 @@
 <br>
 
 ## 3. 최종 결과
-- Public 1위 / 139명
-- Final 2위 / 139명 
+- (Final LB) 2위 / 139명 
+- (Public LB) 1위 / 139명

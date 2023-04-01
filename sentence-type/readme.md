@@ -1,13 +1,12 @@
 # DACON |  문장 유형 분류 AI 경진대회
-![Untitled](https://user-images.githubusercontent.com/103119868/218712997-2ffe2c85-e0a3-495f-bbf0-279f0d040783.png)
-
+<img width="1024" alt="banner" src="https://user-images.githubusercontent.com/103119868/229272028-6d04e7e7-5610-4df2-8aa9-6c7bab547b1e.png">
 
 - 주최: 성균관대학교
 - 주관: DACON
 - 수행 기간: December 12, 2022 → December 23, 2022
 - <a href="https://dacon.io/competitions/official/236037/overview/description" target="_blank" rel="noreferrer noopener">대회 홈페이지</a>
 
-
+<br>
 
 ## 1. 프로젝트 개요
 ### 목표
@@ -46,5 +45,4 @@
 
 
 ## 4. 최종 결과
-- PUBLIC  : 15th / 333 teams
-- **PRIVATE : 22th / 333 teams (Top 7%)**
+- 22위 / 333팀 (Top 7%)
