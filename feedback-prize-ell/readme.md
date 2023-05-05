@@ -1,6 +1,7 @@
 # Kaggle | Feedback Prize - English Language Learning
 
-<img width="1024" alt="Untitled" src="https://user-images.githubusercontent.com/103119868/218717980-5e82b0cf-944b-44d3-a5c9-4376e765f66f.png">
+<img width="960" alt="banner" src="https://user-images.githubusercontent.com/103119868/236372205-619a3b88-aea6-4f4f-85be-282f30022c4b.png">
+
 
 - 주최: Vanderbilt University, The Learning Agency Lab
 - 주관: Kaggle
@@ -41,3 +42,5 @@
 
 ## 4. 최종 결과
 - Silver medal 획득 (Top 5%, 130th /2654 teams)
+
+    <img width="257" alt="medal" src="https://user-images.githubusercontent.com/103119868/236372435-f860c03d-94d2-439c-b6f1-62959f7fa034.png">
