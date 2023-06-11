@@ -1,46 +1,46 @@
 # Kaggle | Feedback Prize - English Language Learning
 
-<img width="960" alt="banner" src="https://user-images.githubusercontent.com/103119868/236372205-619a3b88-aea6-4f4f-85be-282f30022c4b.png">
+<img width="960" alt="banner" src="https://github.com/nomaday/Portfolio/assets/103119868/65fd5550-d95b-4740-8422-1f0693e5b74c">
 
 
-- 주최: Vanderbilt University, The Learning Agency Lab
-- 주관: Kaggle
-- 수행 기간: August 30, 2022 → November 29, 2022
-- <a href="https://www.kaggle.com/competitions/feedback-prize-english-language-learning/overview" target="_blank" rel="noreferrer noopener" target="_blank" rel="noreferrer noopener">대회 홈페이지</a>
+- Host: Vanderbilt University, The Learning Agency Lab
+- Organizer: Kaggle
+- Timeline: August 30, 2022 → November 29, 2022
+- <a href="https://www.kaggle.com/competitions/feedback-prize-english-language-learning/overview" target="_blank" rel="noreferrer noopener" target="_blank" rel="noreferrer noopener">Competition site</a>
 
 <br>
  
-## 1. 프로젝트 개요
+## 1. Project Overview
 
-### 목표
-- 8~12학년 영어 학습자(ELL)의 언어 능력을 평가하는 자동화된 피드백 시스템을 개선하기 위해 주어진 에세이에 대한 6가지 평가 지표 (`cohesion`, `syntax`, `vocabulary`, `phraseology`, `grammar`, `conventions`) 각각의 점수를 예측하는 것
+### Objective
+- Predicting the scores of each of the six analytic measures (`cohesion`, `syntax`, `vocabulary`, `phraseology`, `grammar`, `conventions`) for a given essay to improve automated feedback tools that assesses the language proficiency of 8th-12th grade English Language learners (ELLs)
 
-### 데이터
-- 제시된 데이터 세트(ELLIPSE corpus)는 8~12학년 영어 학습자(ELL)가 작성한 논증 에세이로 구성
-- 에세이는 cohesion, syntax, vocabulary, phraseology, grammar, conventions의 6가지 분석 지표에 따라 채점되고 각 지표는 에세이 작성 능력의 구성 요소를 나타내며 점수가 높을수록 해당 척도의 높은 숙련도를 의미함
-
-<br>
-
-## 2. 주요 수행 내용
-
-### 모델 앙상블
-- 사전 학습된 10개 모델로 가중 추론(Inference)
-
-### 후처리
-- 평균 조정: 지표마다 추론한 결과에 train data에서의 지표 평균과 동일하도록 상수를 더해 추론 값의 평균과 train data의 평균값을 동일하게 조정
-- 분포 조정: 지표마다 추론한 결과에 train data에서의 분포 비율과 동일하도록 상수를 곱해 train data의 분포와 동일하게 조정
-- 점수 단위(0.5)로 조정: 지표마다 추론한 결과를 실제 점수 단위인 0.5 단위로 조정
+### Data
+- The presented data set (ELLIPSE corpus) consists of argumentative essays written by English language learners (ELLs) in grades 8-12.
+- Essays are scored according to six analysis indicators: cohesion, syntax, vocabulary, phraseology, grammar, and conventions. Each indicator represents a component of essay writing ability, and higher scores mean higher proficiency in that scale.
 
 <br>
 
-## 3. 프로젝트를 통해 배운점
+## 2. Key action
 
-- 그동안은 데이터 또는 모델 위주의 접근법으로만 생각했다면 이번 프로젝트에서 후처리 방식으로 접근하는 방식을 시도해봤습니다.
-- 무조건 어렵게 시도하는 것이 아니라, 할 수 있는 선에서 끝까지 포기하지 않는 것이 중요하다는 것을 느꼈습니다.
+### Model Ensemble
+- Weighted inference through the pre-trained ensemble 10 models
+
+### Post-processing
+- Average adjustment: Adjust the average of the inferred values and the average of the train data to be the same by adding a constant to the inference result for each indicator.
+- Distribution adjustment: Adjust the distribution of the inferred values and the distribution of the train data to be the same by multiplying a constant to the inference result for each indicator.
+- Adjustment by score unit (0.5): Adjust the inferred result for each indicator by 0.5 units, which is the actual score unit.
 
 <br>
 
-## 4. 최종 결과
-- Silver medal 획득 (Top 5%, 130th /2654 teams)
+## 3. What I learned from the project
+
+- In the meantime, if I had only thought of a data or model-oriented approach, I tried a post-processing approach in this project.
+- I felt that it is important to not give up until the end in the line that can be done.
+
+<br>
+
+## 4. Final Result
+- Got a Silver medal (Top 5%, 130th / 2654 teams)
 
     <img width="257" alt="medal" src="https://user-images.githubusercontent.com/103119868/236372435-f860c03d-94d2-439c-b6f1-62959f7fa034.png">

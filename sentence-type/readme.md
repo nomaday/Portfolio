@@ -1,48 +1,51 @@
-# DACON |  문장 유형 분류 AI 경진대회
+# DACON |  Sentence Type Classification AI Competition  
 <img width="1024" alt="banner" src="https://user-images.githubusercontent.com/103119868/229272028-6d04e7e7-5610-4df2-8aa9-6c7bab547b1e.png">
 
-- 주최: 성균관대학교
-- 주관: DACON
-- 수행 기간: December 12, 2022 → December 23, 2022
-- <a href="https://dacon.io/competitions/official/236037/overview/description" target="_blank" rel="noreferrer noopener">대회 홈페이지</a>
+- Host: Sungkyunkwan University
+- Organizer: DACON
+- Timeline: December 12, 2022 → December 23, 2022
+- <a href="https://dacon.io/competitions/official/236037/overview/description" target="_blank" rel="noreferrer noopener">Competition site</a>
 
 <br>
 
-## 1. 프로젝트 개요
-### 목표
-- 문장 유형 분류 AI 모델 개발  
-    문장을 입력으로 받아 문장의 '유형', '시제', '극성', '확실성'을 분류하는 모델 생성
+## 1. Project Overview  
+### Objective
+- Sentence type classification AI model development  
+    Receive the sentences as the input and create an AI classification model for `type`, `tense`, `polarity`, and `certainty` of the sentence  
 
 
-### 데이터
+### Data
 <img width="1208" alt="Untitled 1" src="https://user-images.githubusercontent.com/103119868/218712977-fda1a19b-3121-40bb-81e1-2c3d5f12dcaa.png">
 
-- ID : 샘플 문장 별 고유 ID
-- 문장 : 샘플 별 한개의 문장
-- 유형 : 문장의 유형 (사실형, 추론형, 대화형, 예측형)
-- 극성 : 문장의 극성 (긍정, 부정, 미정)
-- 시제 : 문장의 시제 (과거, 현재, 미래)
-- 확실성 : 문장의 확실성 (확실, 불확실)
-- label : 문장 별 유형, 극성, 시제, 확실성에 대한 Class (총 72개 종류의 Class 존재)
-    - 예시) 사실형-긍정-현재-확실
-    
+- ID: Unique ID by sample sentence
+- Sentence: One sentence per sample
+- Type: Type of sentence (factual, inferential, interactive, predictive)
+- Polarity: The polarity of the sentence (positive, negative, undecided)
+- Tense: The tense of the sentence (past, present, future)
+- Certainty: The certainty of the sentence (certain, uncertain)
+- Label: Class for each sentence - type, polarity, tense, and certainty (a total of 72 types of classes exist)  
+    e.g, Factual-Positive-Present-Certain
 
-## 2. 주요 수행 내용
+<br>
+  
+## 2. Key action
 ![Untitled 2](https://user-images.githubusercontent.com/103119868/218712993-2f988986-0f76-4e58-99f5-3f17d7bb9e5b.png)
 
 
-- Multi-label classification을 다루면서 대회 평가기준인 Weighted f1 score에 적절한 모델이 무엇인지 관련 reference paper 찾기
-    - <a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9826728" target="_blank" rel="noreferrer noopener">BigBird</a> 모델이 적합한 것으로 보였음
-- Hugging Face의 여러 PLM 적용 (`monologg/kobigbird-bert-base`, `klue/roberta-large`, `tunib/electra-ko-base`)
-    - KFold, Batch size, Max length, Learning rate 등 여러 Parameter 조정해보면서 적용
-- Team Notion 관리, 실험 관리 양식 작성 및 정리
+- While dealing with multi-label classification, survey the relevant reference paper for which model is appropriate for the weighted f1 score, which is the evaluation criteria for the competition
+    - <a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9826728" target="_blank" rel="noreferrer noopener">BigBird</a> model seemed to fit
+- Try to several PLM application of Hugging Face (`monologg/kobigbird-bert-base`, `klue/roberta-large`, `tunib/electra-ko-base`)
+    - Apply while adjusting various parameters such as KFold, batch size, max length, learning rate, etc.
+- Team Notion management, creation and organization of experiment management template
 
+<br>
 
-## 3. 프로젝트를 통해 배운점
-- 앙상블의 효과가 상당히 크다는 것을 느꼈습니다.
-- 많은 옵션이 들어간다고 성능이 반드시 좋아지는 것은 아닌 점을 배웠습니다.
-- 2주라는 기간동안 좀 더 다양한 시도를 해보았으면 좋았을 것 같습니다.
+## 3. What I learned from the project
+- The effect of the ensemble is quite significant.
+- Having many options does not necessarily improve performance.
+- It would have been nice to try a little more various things during the two-week period.
 
+<br>
 
-## 4. 최종 결과
-- 22위 / 333팀 (Top 7%)
+## 4. Final Result
+- 22<sup>nd</sup> / 333 teams (Top 7%)

@@ -1,37 +1,38 @@
-# AI CONNECT |  이어드림 경진대회
-![Picture1](https://user-images.githubusercontent.com/103119868/220609056-92f55e77-1d5b-4a2d-9541-ab2b5ad3d512.png)
+# AI CONNECT |  YearDream Competition
+<img width="960" alt="Picture2" src="https://github.com/nomaday/Portfolio/assets/103119868/d4b9bfaf-4b29-4ef6-8f22-93ec9f92d2f8">
 
 
-- 주최: 중소벤처기업진흥공단
-- 주관: AI CONNECT (마인즈앤컴퍼니)
-- 수행 기간: November 14, 2022 → November 28, 2022
-- <a href="https://aiconnect.kr/competition/detail/217" target="_blank">대회 홈페이지</a>
-
-<br>
-
-## 1. 프로젝트 개요
-- 도서자료 검색 효율화를 위한 기계독해 
-- 자연어 처리(NLP) | 개방형 문제 | Accuracy 
-
-#### 문제정의
-- 주어진 지문 속 질문에 대한 답을 찾는 Machine Reading Comprehension
+- Host: Korea SMEs and Startups Agency
+- Organizer: AI CONNECT (MINDS AND COMPANY)
+- Timeline: November 14, 2022 → November 28, 2022
+- <a href="https://aiconnect.kr/competition/detail/217" target="_blank">Competition site</a>
 
 <br>
 
-## 2. 주요 수행 내용
-- 기계독해 관련 정보 조사
-- Pre-trained Model 활용
-    - `monologg/koelectra-base-v3-discriminator` 모델 적용
-    - `KLUE-RoBERTa-large` 모델 적용 *(대회 종료 후 확인한 score: 0.6243313으로 가장 높았음)*
-- HuggingFace library 활용
+## 1. Project Overview
+- Machine reading comprehension for efficiency of book data search
+- Natural Language Processing (NLP) | open question | Accuracy
+
+#### Problem definition
+- Machine Reading Comprehension to find answers to questions in given passages
+
+<br>
+
+## 2. Key action
+- Investigation of information related to machine reading comprehension
+- Use Pre-trained model
+    - Apply `monologg/koelectra-base-v3-discriminator`  model
+    - Apply `KLUE-RoBERTa-large` model  
+        *(The final score confirmed after the competition was 0.624331, the highest)*
+- Use HuggingFace library
     - `ElectraForQuestionAnswering` `ElectraTokenizerFast`
     - `AutoModelForQuestionAnswering`, `AutoTokenizer`
-- Parameters 조정
+- Parameters adjustment
     - Learning rate, Batch size, Epoch
     - CosineAnnealingLR
 
 <br>
 
-## 3. 최종 결과
-- (Final LB) 2위 / 139명 
-- (Public LB) 1위 / 139명
+## 3. Final Result
+- (Final LB) 2<sup>nd</sup> / 139 people 
+- (Public LB) 1<sup>st</sup> / 139 people
