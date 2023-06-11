@@ -41,6 +41,6 @@
 <br>
 
 ## 4. Final Result
-- Got a Silver medal (Top 5%, 130th / 2654 teams)
+- Got a Silver medal (Top 5%, 130<sup>th</sup> / 2654 teams)
 
     <img width="257" alt="medal" src="https://user-images.githubusercontent.com/103119868/236372435-f860c03d-94d2-439c-b6f1-62959f7fa034.png">

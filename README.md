@@ -44,7 +44,7 @@
 - Organizer: Kaggle
 - Team name: Rotation of Salmon Planet
 - Timeline: 2022.08.30 ~ 2022.11.29
-- Result: Silver medal, 130th /2654 teams, Ranked in Top 5%
+- Result: Silver medal, 130<sup>th</sup> /2654 teams, Ranked in Top 5%
 
 <br>
 
