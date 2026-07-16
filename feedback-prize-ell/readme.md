@@ -35,8 +35,9 @@
 
 ## 3. What I learned from the project
 
-- In the meantime, if I had only thought of a data or model-oriented approach, I tried a post-processing approach in this project.
-- I felt that it is important to not give up until the end in the line that can be done.
+- **Ensembling**: Experienced firsthand how much lift ensembling can provide.
+- **Post-processing as a lever**: I'd mostly approached problems through data or model choices before — this project was my first real attempt at treating post-processing as its own lever.
+- **Persistence, scoped**: Learned that persistence isn't about forcing the hardest possible approach — it's about not giving up within what's actually feasible.
 
 <br>
 
